@@ -12,8 +12,13 @@ export function Logo({ className }: { className?: string }) {
         className="size-8 rounded-lg"
         priority
       />
-      <span className="text-lg font-bold tracking-tight text-foreground">
-        接龙 <span className="font-medium text-muted-foreground">Jielong</span>
+      <span className="flex flex-col gap-0.5 leading-tight">
+        <span className="text-lg font-bold tracking-tight text-foreground">
+          Jielong
+        </span>
+        <span className="w-fit rounded-full bg-accent px-2 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wide text-accent-foreground">
+          NZ Edition
+        </span>
       </span>
     </Link>
   );

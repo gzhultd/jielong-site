@@ -57,7 +57,7 @@ export function Navbar() {
           </SheetTrigger>
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle>接龙 Jielong</SheetTitle>
+              <SheetTitle>Jielong — NZ Edition</SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-1 px-4">
               {nav.links.map((link) => (
