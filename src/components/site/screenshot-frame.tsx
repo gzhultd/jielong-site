@@ -8,12 +8,14 @@ export function ScreenshotFrame({
   width,
   height,
   className,
+  priority,
 }: {
   src: string | StaticImageData;
   alt: string;
   width: number;
   height: number;
   className?: string;
+  priority?: boolean;
 }) {
   return (
     <div
@@ -27,7 +29,14 @@ export function ScreenshotFrame({
         <span className="size-2.5 rounded-full bg-slate-300" />
         <span className="size-2.5 rounded-full bg-slate-300" />
       </div>
-      <Image src={src} alt={alt} width={width} height={height} className="h-auto w-full" />
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className="h-auto w-full"
+        priority={priority}
+      />
     </div>
   );
 }

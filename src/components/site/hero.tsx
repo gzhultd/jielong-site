@@ -67,6 +67,7 @@ export function Hero() {
             width={720}
             height={757}
             className="rotate-1 shadow-2xl"
+            priority
           />
         </div>
       </div>
