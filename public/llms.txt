@@ -1,0 +1,25 @@
+# Jielong (接龙)
+
+> Jielong is a batch commerce platform for New Zealand merchants: publish a time-boxed group-buy campaign, collect demand from shoppers, then produce and fulfil every order together as one batch.
+
+Jielong is built for the model where a merchant opens a recurring ordering window (a "接龙"), shoppers commit and pay upfront within that window, and only once it closes does the merchant know the full picture — so they cook or pack once, for everyone, instead of fulfilling one order at a time. This is different from generic pre-order/pickup tools, which take orders continuously and expect on-demand fulfilment.
+
+## How it works
+
+1. Merchant publishes a campaign: title, rich-text details with images, a product catalog, an order deadline, and one or more pickup points each with their own time slots.
+2. Merchant shares one link and an auto-generated QR code — commonly posted directly into a WeChat group. Shoppers tap the link or scan the code and land straight on the ordering page, no app install or account creation required to browse.
+3. Shoppers select products, choose pickup or delivery, and pay upfront via Akahu (NZ open banking) — a one-off bank-transfer payment approved from their own banking app.
+4. When the window closes, the merchant sees every order rolled up into a per-product production summary, so quantities to cook or pack are known in advance.
+5. Orders are handed out at the chosen pickup point and time slot, or delivered.
+
+## Who it's for
+
+New Zealand merchants running recurring group-buy campaigns, particularly home kitchens and small food businesses serving the Chinese community, who currently coordinate orders manually inside WeChat groups.
+
+## Pricing
+
+Free Starter tier for a small number of campaigns per month; paid Growth and Pro tiers unlock unlimited campaigns, multiple pickup points, delivery orders, and reporting. See https://jielong.gzhu.co.nz/pricing
+
+## Maker
+
+Jielong is a product of GZhu Limited, a digital transformation partner based in Auckland, New Zealand. https://www.gzhu.co.nz
