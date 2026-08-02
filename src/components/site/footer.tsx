@@ -16,8 +16,8 @@ const columns = [
     heading: "Company",
     links: [
       { label: "About GZhu Limited", href: "https://www.gzhu.co.nz" },
-      { label: "Contact", href: "mailto:hello@jielong.co.nz" },
-      { label: "Support", href: "mailto:support@jielong.co.nz" },
+      { label: "Contact", href: "mailto:info@gzhu.co.nz" },
+      { label: "Support", href: "mailto:info@gzhu.co.nz" },
     ],
   },
   {
