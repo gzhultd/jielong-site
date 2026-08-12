@@ -34,7 +34,10 @@ export function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Link href="#" className={buttonVariants({ variant: "ghost", size: "lg" })}>
+          <Link
+            href="https://jielong.co.nz/merchant/login"
+            className={buttonVariants({ variant: "ghost", size: "lg" })}
+          >
             Merchant login
           </Link>
           <Link href="/pricing" className={buttonVariants({ size: "lg" })}>
@@ -71,7 +74,10 @@ export function Navbar() {
               ))}
             </nav>
             <div className="mt-auto flex flex-col gap-2 p-4">
-              <Link href="#" className={buttonVariants({ variant: "outline", size: "lg" })}>
+              <Link
+                href="https://jielong.co.nz/merchant/login"
+                className={buttonVariants({ variant: "outline", size: "lg" })}
+              >
                 Merchant login
               </Link>
               <Link href="/pricing" className={buttonVariants({ size: "lg" })}>
