@@ -7,7 +7,7 @@ const points = [
   "Post either one straight into your WeChat group — no separate app or channel to manage.",
   "Shoppers tap the link or scan the code and land directly on the ordering page.",
   "It opens right inside WeChat's built-in browser — nothing to install, nothing to switch apps for.",
-  "Shoppers browse without logging in, then sign in with their WeChat account in one tap at checkout — no passwords, no sign-up forms. Their WeChat name and avatar appear in the order list.",
+  "Shoppers log in with their current WeChat account and place orders right away — no sign-up needed.",
 ];
 
 export function ShareHighlight() {
