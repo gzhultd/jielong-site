@@ -30,7 +30,8 @@ export function ScreenshotFrame({
         width={width}
         height={height}
         className="h-auto w-full"
-        priority={priority}
+        loading={priority ? "eager" : undefined}
+        fetchPriority={priority ? "high" : undefined}
       />
     </div>
   );
