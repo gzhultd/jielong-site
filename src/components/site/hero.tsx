@@ -25,7 +25,7 @@ export function Hero() {
           </Badge>
 
           <h1 className="max-w-xl text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl lg:mx-0">
-            Open a window. Collect orders.
+            Publish a campaign. Collect orders.
             <br className="hidden sm:block" /> Batch-produce with confidence.
           </h1>
 

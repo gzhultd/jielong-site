@@ -9,9 +9,9 @@ export const nav = {
 
 export const steps = [
   {
-    title: "Open a window",
+    title: "Publish a campaign",
     description:
-      "Publish a 接龙 campaign with a title, rich-text details, photos, and the products on offer. Set an order deadline.",
+      "Add a title, rich-text details, photos, and the products on offer, then set an order deadline.",
     icon: "CalendarClock",
   },
   {

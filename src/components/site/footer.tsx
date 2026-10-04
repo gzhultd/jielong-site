@@ -38,8 +38,8 @@ export function Footer() {
           <div className="max-w-xs">
             <Logo />
             <p className="mt-3 text-sm text-muted-foreground">
-              Batch commerce for New Zealand merchants — open a window, collect
-              demand, produce once, deliver together.
+              Batch commerce for New Zealand merchants — publish a campaign,
+              collect orders, produce once, deliver together.
             </p>
           </div>
 
