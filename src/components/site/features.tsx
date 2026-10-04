@@ -1,10 +1,13 @@
 import {
   ClipboardList,
   FileEdit,
+  Gift,
   Landmark,
+  LineChart,
   MapPin,
   Package,
   Share2,
+  ShoppingBasket,
   type LucideIcon,
 } from "lucide-react";
 
@@ -24,6 +27,9 @@ const icons: Record<string, LucideIcon> = {
   ClipboardList,
   Landmark,
   Share2,
+  Gift,
+  LineChart,
+  ShoppingBasket,
 };
 
 export function Features() {

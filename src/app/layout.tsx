@@ -21,7 +21,7 @@ const notoSansSC = Noto_Sans_SC({
 export const metadata: Metadata = {
   title: "接龙 Jielong — Batch Group-Buy Ordering for NZ Merchants",
   description:
-    "Open a group-buy window, collect demand, batch-produce, then deliver or hand out at pickup. Jielong is a batch commerce platform built for New Zealand merchants.",
+    "新西兰社群，就用新接龙. Open a 接龙 window, collect orders from your WeChat group, batch-produce, then deliver or hand out at pickup — built for New Zealand merchants.",
 };
 
 export default function RootLayout({

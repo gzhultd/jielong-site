@@ -17,7 +17,7 @@ export const steps = [
   {
     title: "Collect demand",
     description:
-      "Share one link. Shoppers order within the window, choose pickup or delivery, and pay upfront — no guesswork on quantities.",
+      "Share one link or QR code. Shoppers order within the window, choose pickup or delivery, and pay by bank transfer — no guesswork on quantities.",
     icon: "Users",
   },
   {
@@ -29,7 +29,7 @@ export const steps = [
   {
     title: "Hand out or deliver",
     description:
-      "Set multiple pickup points and time slots, or deliver — shoppers see exactly where and when to collect their order.",
+      "Set multiple pickup points and delivery zones with their own time windows. Shoppers see exactly where and when, and get an SMS when their order is ready.",
     icon: "Truck",
   },
 ] as const;
@@ -48,9 +48,9 @@ export const features = [
     icon: "Package",
   },
   {
-    title: "Multi pickup points",
+    title: "Pickup points & delivery zones",
     description:
-      "Set several pickup locations, each with its own time slots — shoppers pick the one that works for them.",
+      "Several pickup points with map previews and daily time windows, plus delivery zones with minimum-order rules and optional under-minimum fees. Print per-pickup-point order lists for your helpers.",
     icon: "MapPin",
   },
   {
@@ -60,16 +60,34 @@ export const features = [
     icon: "ClipboardList",
   },
   {
-    title: "Bank-transfer payments",
+    title: "Bank transfer & Online EFTPOS",
     description:
-      "One-off payments via Akahu open banking — shoppers approve straight from their own banking app, no card fees to absorb.",
+      "Shoppers pay by direct bank transfer with a screenshot as proof, or — once enabled for your account — approve an Online EFTPOS payment in their own banking app and have it confirmed automatically. No card fees either way.",
     icon: "Landmark",
   },
   {
     title: "Built for sharing",
     description:
-      "Every campaign gets a link and a QR code — post it in your WeChat group and shoppers tap or scan straight through to ordering, no app install.",
+      "Every campaign gets a link and QR code, with an editable WeChat-ready share text and a custom share card. Shoppers tap straight through to ordering inside WeChat, no app install.",
     icon: "Share2",
+  },
+  {
+    title: "Bundles & promotions",
+    description:
+      "Sell gift boxes with per-box flavour choice or blind boxes, stack multi-buy discounts, pin hero items to the top, and run Xiaohongshu promos with a shopper screenshot.",
+    icon: "Gift",
+  },
+  {
+    title: "Merchant dashboard",
+    description:
+      "Income trend charts, per-pickup-point stats, popular products, and order filters with CSV export — plus a public merchant homepage showing your recent 接龙.",
+    icon: "LineChart",
+  },
+  {
+    title: "Shopper-friendly ordering",
+    description:
+      "Live countdown, remaining-stock counts, a cart preview, a numbered 接龙 order list for social proof, and a personal 我的接龙 page with frequently bought items.",
+    icon: "ShoppingBasket",
   },
 ] as const;
 
@@ -105,7 +123,7 @@ export const plans: Plan[] = [
       "Up to 40 orders per campaign",
       "1 pickup point",
       "Product catalog & rich-text editor",
-      "Bank-transfer payments via Akahu",
+      "Bank transfer with proof upload; Online EFTPOS on application",
       "Email support",
     ],
   },
@@ -120,7 +138,7 @@ export const plans: Plan[] = [
     features: [
       "Unlimited campaigns & orders",
       "Unlimited pickup points & time slots",
-      "Delivery orders",
+      "Delivery zones with minimum-order rules",
       "Draft, preview & duplicate campaigns",
       "Order & production summary exports",
       "Priority email & chat support",
@@ -171,12 +189,17 @@ export const faqs = [
   {
     question: "How does payment work?",
     answer:
-      "Shoppers pay upfront through Akahu, NZ's open-banking network. They approve a one-off bank-transfer payment request from their own banking app — no card details stored, and typically lower fees than card processing.",
+      "By default shoppers pay by direct bank transfer to your account — the payment page shows your details with copy buttons — and upload a screenshot as proof, which you confirm in the order list. Online EFTPOS is also available on application: shoppers approve the payment in their own banking app and the order is marked paid automatically. Either way no card details are stored and there are no card-processing fees.",
   },
   {
     question: "Can I run more than one campaign at a time?",
     answer:
       "Yes. Each campaign has its own window, products, and pickup points, so you can run several in parallel — for example a weekly staple alongside a one-off seasonal batch.",
+  },
+  {
+    question: "What if a shopper misses the deadline?",
+    answer:
+      "You can reopen an ended 接龙 for late orders within 2 days, or end an ongoing one early whenever you like. Shoppers who reopen the link are reminded of any unpaid orders.",
   },
   {
     question: "Can shoppers order more than once on the same campaign?",

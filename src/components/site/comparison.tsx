@@ -16,12 +16,12 @@ const rows = [
   {
     label: "Pickup locations",
     generic: "Usually one storefront",
-    jielong: "Multiple pickup points, each with own time slots",
+    jielong: "Multiple pickup points and delivery zones, each with own time windows",
   },
   {
     label: "Payments",
     generic: "Card processing, ~2–3% fees",
-    jielong: "Bank transfer via Akahu open banking",
+    jielong: "Bank transfer or Online EFTPOS (on application) — no card fees",
   },
 ];
 

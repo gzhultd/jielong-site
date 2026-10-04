@@ -20,7 +20,7 @@ export default function PricingPage() {
             Choose the plan that fits your campaigns
           </h1>
           <p className="mt-4 text-lg text-slate-600">
-            Every plan includes bank-transfer payments via Akahu, the campaign
+            Every plan includes bank-transfer payments, the campaign
             builder, and the production summary. Upgrade as you run more
             campaigns.
           </p>
