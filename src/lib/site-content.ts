@@ -27,7 +27,7 @@ export const steps = [
     icon: "ClipboardList",
   },
   {
-    title: "Hand out or deliver",
+    title: "Pick up or deliver",
     description:
       "Set multiple pickup points and delivery zones with their own time windows. Shoppers see exactly where and when, and get an SMS when their order is ready.",
     icon: "Truck",
