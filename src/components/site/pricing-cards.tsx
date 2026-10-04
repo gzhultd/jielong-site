@@ -1,15 +1,25 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Check } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
-import { plans } from "@/lib/site-content";
+import { plans, type Plan } from "@/lib/site-content";
 import { cn } from "@/lib/utils";
+
+const CONTACT_URL = "https://www.gzhu.co.nz/contact.html";
+
+function contactHref(plan: Plan, price: number, yearly: boolean) {
+  const detail =
+    price === 0
+      ? "free"
+      : `NZ$${price}/month, billed ${yearly ? "yearly" : "monthly"}`;
+  const message = `I'm interested in the Jielong ${plan.name} plan (${detail}).`;
+  return `${CONTACT_URL}?message=${encodeURIComponent(message)}`;
+}
 
 export function PricingCards() {
   const [yearly, setYearly] = useState(false);
@@ -64,8 +74,8 @@ export function PricingCards() {
                 </div>
               </CardHeader>
               <CardContent className="flex flex-1 flex-col">
-                <Link
-                  href="#"
+                <a
+                  href={contactHref(plan, price, yearly)}
                   className={cn(
                     buttonVariants({
                       size: "lg",
@@ -75,7 +85,7 @@ export function PricingCards() {
                   )}
                 >
                   {plan.cta}
-                </Link>
+                </a>
 
                 <ul className="mt-6 space-y-3 text-sm">
                   {plan.features.map((feature) => (
