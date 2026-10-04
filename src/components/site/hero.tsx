@@ -60,7 +60,7 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="relative mx-auto w-full max-w-xs lg:max-w-sm">
+        <div className="relative mx-auto w-full max-w-[240px] lg:max-w-[260px]">
           <ScreenshotFrame
             src="/screenshots/campaign-view.jpg"
             alt="A live 接龙 campaign as shoppers see it — title, deadline, and menu"
