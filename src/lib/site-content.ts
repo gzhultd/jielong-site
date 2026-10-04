@@ -62,7 +62,7 @@ export const features = [
   {
     title: "Bank transfer & Online EFTPOS",
     description:
-      "Shoppers pay by direct bank transfer with a screenshot as proof, or — once enabled for your account — approve an Online EFTPOS payment in their own banking app and have it confirmed automatically. No card fees either way.",
+      "Shoppers pay by direct bank transfer with a screenshot as proof, or — on the Pro plan — approve an Online EFTPOS payment in their own banking app and have it confirmed automatically. No card fees either way.",
     icon: "Landmark",
   },
   {
@@ -119,11 +119,11 @@ export const plans: Plan[] = [
     yearlyPrice: 0,
     cta: "Start free",
     features: [
-      "Up to 4 campaigns / month",
-      "Up to 40 orders per campaign",
+      "Up to 3 campaigns / month",
+      "Up to 10 orders per campaign",
       "1 pickup point",
       "Product catalog & rich-text editor",
-      "Bank transfer with proof upload; Online EFTPOS on application",
+      "Bank-transfer payments with proof upload",
       "Email support",
     ],
   },
@@ -141,6 +141,7 @@ export const plans: Plan[] = [
       "Delivery zones with minimum-order rules",
       "Draft, preview & duplicate campaigns",
       "Order & production summary exports",
+      "SMS notifications for pickup & delivery arrival",
       "Priority email & chat support",
     ],
   },
@@ -153,6 +154,7 @@ export const plans: Plan[] = [
     cta: "Choose Pro",
     features: [
       "Everything in Growth",
+      "Online EFTPOS payments with automatic confirmation",
       "Multiple staff accounts & roles",
       "Custom branded ordering link",
       "Advanced sales & production reports",
@@ -189,7 +191,7 @@ export const faqs = [
   {
     question: "How does payment work?",
     answer:
-      "By default shoppers pay by direct bank transfer to your account — the payment page shows your details with copy buttons — and upload a screenshot as proof, which you confirm in the order list. Online EFTPOS is also available on application: shoppers approve the payment in their own banking app and the order is marked paid automatically. Either way no card details are stored and there are no card-processing fees.",
+      "By default shoppers pay by direct bank transfer to your account — the payment page shows your details with copy buttons — and upload a screenshot as proof, which you confirm in the order list. Online EFTPOS is available on the Pro plan: shoppers approve the payment in their own banking app and the order is marked paid automatically. Either way no card details are stored and there are no card-processing fees.",
   },
   {
     question: "Can I run more than one campaign at a time?",

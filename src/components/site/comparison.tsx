@@ -21,7 +21,7 @@ const rows = [
   {
     label: "Payments",
     generic: "Card processing, ~2–3% fees",
-    jielong: "Bank transfer or Online EFTPOS (on application) — no card fees",
+    jielong: "Bank transfer or Online EFTPOS (Pro) — no card fees",
   },
 ];
 

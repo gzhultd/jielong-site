@@ -62,9 +62,6 @@ export function PricingCards() {
                     NZD{price > 0 ? " / month" : ""}
                   </span>
                 </div>
-                {price === 0 && (
-                  <p className="text-xs text-muted-foreground">plus payment processing fees</p>
-                )}
               </CardHeader>
               <CardContent className="flex flex-1 flex-col">
                 <Link
