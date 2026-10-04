@@ -1,6 +1,6 @@
 # Jielong (接龙)
 
-> Jielong (新接龙 — 新西兰社群，就用新接龙) is a batch commerce platform for New Zealand merchants: publish a time-boxed group-buy campaign, collect demand from shoppers, then produce and fulfil every order together as one batch.
+> Jielong (新接龙 — 新西兰社群，就用新接龙) is a batch commerce platform for New Zealand merchants: publish a time-boxed group-buy campaign, collect orders from shoppers, then produce and fulfil every order together as one batch.
 
 Jielong is built for the model where a merchant opens a recurring ordering window (a "接龙"), shoppers commit and pay upfront within that window, and only once it closes does the merchant know the full picture — so they cook or pack once, for everyone, instead of fulfilling one order at a time. This is different from generic pre-order/pickup tools, which take orders continuously and expect on-demand fulfilment.
 

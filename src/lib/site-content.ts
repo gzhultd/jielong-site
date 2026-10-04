@@ -15,7 +15,7 @@ export const steps = [
     icon: "CalendarClock",
   },
   {
-    title: "Collect demand",
+    title: "Collect orders",
     description:
       "Share one link or QR code. Shoppers order within the window, choose pickup or delivery, and pay by bank transfer — no guesswork on quantities.",
     icon: "Users",
