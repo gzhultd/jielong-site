@@ -11,7 +11,7 @@ export const steps = [
   {
     title: "Publish a campaign",
     description:
-      "Add a title, rich-text details, photos, and the products on offer, then set an order deadline.",
+      "Set up everything in one place: details and photos, products, promotions, pickup points and delivery zones — then set an order deadline.",
     icon: "CalendarClock",
   },
   {
