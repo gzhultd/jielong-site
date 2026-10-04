@@ -18,16 +18,16 @@ export function ProductShowcase() {
           <ScreenshotFrame
             src="/screenshots/campaign-view.jpg"
             alt="Shopper view of a 接龙 campaign, showing the title, deadline, and menu"
-            width={720}
-            height={960}
-            className="-rotate-1"
+            width={780}
+            height={1688}
+            className="mx-auto w-full max-w-[280px] -rotate-1"
           />
           <ScreenshotFrame
             src="/screenshots/product-list.jpg"
             alt="Product listing with photos, pricing, discounts, and a quantity stepper"
-            width={720}
-            height={960}
-            className="rotate-1 sm:mt-10"
+            width={780}
+            height={1688}
+            className="mx-auto w-full max-w-[280px] rotate-1 sm:mt-10"
           />
         </div>
       </div>

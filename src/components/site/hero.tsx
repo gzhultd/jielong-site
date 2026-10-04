@@ -64,8 +64,8 @@ export function Hero() {
           <ScreenshotFrame
             src="/screenshots/campaign-view.jpg"
             alt="A live 接龙 campaign as shoppers see it — title, deadline, and menu"
-            width={720}
-            height={960}
+            width={780}
+            height={1688}
             className="rotate-1 shadow-2xl"
             priority
           />
