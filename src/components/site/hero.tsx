@@ -32,7 +32,7 @@ export function Hero() {
           <p className="mt-6 max-w-xl text-lg text-slate-600 lg:mx-0">
             Jielong (接龙) is a batch commerce platform for New Zealand
             merchants — publish a limited-time ordering window, let shoppers
-            commit and pay by bank transfer, then produce and fulfil every order
+            commit and pay by bank transfer or Online EFTPOS, then produce and fulfil every order
             together.
           </p>
 

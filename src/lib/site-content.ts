@@ -17,7 +17,7 @@ export const steps = [
   {
     title: "Collect orders",
     description:
-      "Share one link or QR code. Shoppers order within the window, choose pickup or delivery, and pay by bank transfer — no guesswork on quantities.",
+      "Share one link or QR code. Shoppers order within the window, choose pickup or delivery, and pay by bank transfer or Online EFTPOS — no guesswork on quantities.",
     icon: "Users",
   },
   {
