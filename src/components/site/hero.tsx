@@ -62,8 +62,8 @@ export function Hero() {
 
         <div className="relative mx-auto w-full max-w-[240px] lg:max-w-[260px]">
           <ScreenshotFrame
-            src="/screenshots/campaign-view.jpg"
-            alt="A live 接龙 campaign as shoppers see it — title, deadline, and menu"
+            src="/screenshots/home-view.jpg"
+            alt="The Jielong homepage on a phone — live campaigns, deadlines, and past campaigns"
             width={780}
             height={1688}
             className="rotate-1 shadow-2xl"
