@@ -18,7 +18,7 @@ export function Hero() {
         className="pointer-events-none absolute top-1/3 -right-32 size-96 rounded-full bg-amber-300/20 blur-3xl"
       />
 
-      <div className="relative mx-auto grid max-w-6xl gap-16 px-4 py-20 sm:px-6 sm:py-28 lg:grid-cols-2 lg:items-center lg:gap-12">
+      <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-8 sm:px-6 sm:py-12 lg:grid-cols-2 lg:items-center lg:gap-12">
         <div className="text-center lg:text-left">
           <Badge variant="secondary" className="mb-6">
             Built for the NZ group-buy community
