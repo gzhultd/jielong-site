@@ -47,11 +47,11 @@ export function ShareHighlight() {
         </div>
 
         <ScreenshotFrame
-          src="/screenshots/share-qr.png"
-          alt="Jielong's share screen — a generated link and QR code for a campaign"
-          width={1344}
-          height={760}
-          className="mx-auto w-full max-w-md"
+          src="/screenshots/share-qr.jpg"
+          alt="Jielong's share screen — a generated QR code and WeChat-ready share text for a campaign"
+          width={780}
+          height={1720}
+          className="mx-auto w-full max-w-[240px]"
         />
       </div>
     </section>

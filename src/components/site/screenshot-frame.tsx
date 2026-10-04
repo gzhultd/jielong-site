@@ -20,15 +20,10 @@ export function ScreenshotFrame({
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/10",
+        "overflow-hidden rounded-[2rem] border-[6px] border-slate-900 bg-white shadow-xl",
         className,
       )}
     >
-      <div className="flex items-center gap-1.5 border-b border-border/60 bg-slate-50 px-3 py-2.5">
-        <span className="size-2.5 rounded-full bg-slate-300" />
-        <span className="size-2.5 rounded-full bg-slate-300" />
-        <span className="size-2.5 rounded-full bg-slate-300" />
-      </div>
       <Image
         src={src}
         alt={alt}

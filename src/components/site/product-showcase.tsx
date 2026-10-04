@@ -14,20 +14,20 @@ export function ProductShowcase() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 sm:items-start">
+        <div className="mx-auto mt-14 grid max-w-xl gap-8 sm:grid-cols-2 sm:items-start">
           <ScreenshotFrame
             src="/screenshots/campaign-view.jpg"
             alt="Shopper view of a 接龙 campaign, showing the title, deadline, and menu"
             width={780}
             height={1688}
-            className="mx-auto w-full max-w-[280px] -rotate-1"
+            className="mx-auto w-full max-w-[220px] -rotate-1"
           />
           <ScreenshotFrame
             src="/screenshots/product-list.jpg"
             alt="Product listing with photos, pricing, discounts, and a quantity stepper"
             width={780}
             height={1688}
-            className="mx-auto w-full max-w-[280px] rotate-1 sm:mt-10"
+            className="mx-auto w-full max-w-[220px] rotate-1 sm:mt-10"
           />
         </div>
       </div>
