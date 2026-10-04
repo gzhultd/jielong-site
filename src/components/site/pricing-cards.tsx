@@ -49,10 +49,10 @@ export function PricingCards() {
               )}
             >
               <CardHeader>
-                {plan.highlighted && (
-                  <Badge className="mb-2 w-fit">Most popular</Badge>
-                )}
-                <h3 className="text-lg font-semibold text-slate-950">{plan.name}</h3>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-lg font-semibold text-slate-950">{plan.name}</h3>
+                  {plan.highlighted && <Badge>Most popular</Badge>}
+                </div>
                 <p className="text-sm text-muted-foreground">{plan.tagline}</p>
                 <div className="mt-4 flex items-baseline gap-1">
                   <span className="text-4xl font-bold tracking-tight text-slate-950">
