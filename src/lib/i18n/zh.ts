@@ -321,8 +321,7 @@ export const zh: Dict = {
     },
   },
   footer: {
-    tagline:
-      "为新西兰商家打造的接龙平台——发布接龙、收集订单、统一备货、集中交付。",
+    tagline: "为新西兰商家打造的接龙平台，让发布、收单、备货和交付变得更简单。",
     columns: [
       {
         heading: "产品",
