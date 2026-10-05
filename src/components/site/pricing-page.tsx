@@ -17,7 +17,7 @@ export function PricingPage({ lang }: { lang: Locale }) {
         </div>
       </section>
 
-      <section className="bg-white pb-20 sm:pb-24">
+      <section className="bg-white pt-12 pb-20 sm:pt-14 sm:pb-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <PricingCards pricing={pricing} />
         </div>
