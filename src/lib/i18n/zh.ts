@@ -326,7 +326,7 @@ export const zh: Dict = {
       {
         heading: "产品",
         links: [
-          { label: "运作方式", href: "/#how-it-works" },
+          { label: "流程", href: "/#how-it-works" },
           { label: "功能", href: "/#features" },
           { label: "价格", href: "/pricing" },
           { label: "常见问题", href: "/#faq" },
