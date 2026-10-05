@@ -16,7 +16,7 @@ export const zh: Dict = {
   logo: { edition: "新西兰版" },
   nav: {
     links: [
-      { href: "/#how-it-works", label: "运作方式" },
+      { href: "/#how-it-works", label: "流程" },
       { href: "/#features", label: "功能" },
       { href: "/pricing", label: "价格" },
       { href: "/#faq", label: "常见问题" },
