@@ -150,7 +150,6 @@ export const zh: Dict = {
   },
   comparison: {
     heading: "接龙，而不只是预订",
-    body: "预订是来一单做一单，接龙则是先收单，再备货。Jielong 让买家在限定时间内集中下单，截单后自动汇总完整订单量。你不用边接单边备货，而是根据最终需求一次备齐，再统一交付。",
     closing: "先收单，再备货。\n把零散订单，变成一张清晰的备货清单。",
     colGeneric: "普通预订工具",
     colJielong: "Jielong",

@@ -11,7 +11,9 @@ export function Comparison({ lang }: { lang: Locale }) {
           <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
             {comparison.heading}
           </h2>
-          <p className="mt-4 text-lg text-slate-600">{comparison.body}</p>
+          {comparison.body && (
+            <p className="mt-4 text-lg text-slate-600">{comparison.body}</p>
+          )}
           {comparison.closing && (
             <p className="mt-6 text-lg font-semibold text-slate-950 whitespace-pre-line">
               {comparison.closing}
