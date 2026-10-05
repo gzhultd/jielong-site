@@ -10,7 +10,7 @@ export const zh: Dict = {
     },
     pricing: {
       title: "价格 — 接龙 Jielong",
-      description: "Jielong 批量接龙的透明定价。免费开始，随团购规模增长再升级。",
+      description: "Jielong 接龙的透明定价。免费开始，随团购规模增长再升级。",
     },
   },
   logo: { edition: "新西兰版" },
@@ -89,7 +89,7 @@ export const zh: Dict = {
     alt: "Jielong 的分享页面——自动生成的二维码和可直接发到微信的分享文案",
   },
   features: {
-    title: "批量接龙所需的一切",
+    title: "接龙所需的一切",
     body: "从接龙编辑器到备货单，围绕团购的真实运作方式而设计。",
     items: [
       {
@@ -149,7 +149,7 @@ export const zh: Dict = {
     ],
   },
   comparison: {
-    heading: "批量接龙，而不只是预订",
+    heading: "接龙，而不只是预订",
     body: "普通的预订和自提工具是来一单收一单，需要你随时现做。Jielong 采用另一种模式：所有人都在一个限时窗口内下单，截止后你才掌握完整数量——一次备货，服务所有人，而不是一单一单地处理。",
     colGeneric: "普通预订工具",
     colJielong: "Jielong",
@@ -322,7 +322,7 @@ export const zh: Dict = {
   },
   footer: {
     tagline:
-      "为新西兰商家打造的批量接龙平台——发布接龙、收集订单、统一备货、集中交付。",
+      "为新西兰商家打造的接龙平台——发布接龙、收集订单、统一备货、集中交付。",
     columns: [
       {
         heading: "产品",
