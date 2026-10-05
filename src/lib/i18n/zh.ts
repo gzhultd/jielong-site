@@ -71,7 +71,7 @@ export const zh: Dict = {
   },
   showcase: {
     title: "看看实际效果",
-    body: "真实的买家页面——真实的接龙、真实的商品，正在 Jielong 上运行。",
+    body: "真实商家的接龙，真实买家的下单体验。",
     altCampaign: "买家看到的接龙页面，包含标题、截止时间和商品",
     altProducts: "商品列表，包含图片、价格、优惠和数量加减按钮",
   },
