@@ -223,7 +223,7 @@ export const zh: Dict = {
   },
   cta: {
     title: "免费发布你的第一场接龙",
-    body: "几分钟即可发布接龙，无需绑定银行卡。",
+    body: "几分钟完成设置，开始你的第一场接龙。",
     startFree: "免费开始",
     viewPricing: "查看价格",
   },
