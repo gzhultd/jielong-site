@@ -77,6 +77,8 @@ export const en: Dict = {
       "Shopper view of a 接龙 campaign, showing the title, deadline, and menu",
     altProducts:
       "Product listing with photos, pricing, discounts, and a quantity stepper",
+    altGuide:
+      "The Jielong participation guide, explaining how to order inside WeChat",
   },
   share: {
     title: "Share a link and a QR code, straight to WeChat",

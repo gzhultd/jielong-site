@@ -46,7 +46,13 @@ export type Dict = {
     stepLabel: string; // "{n}" is replaced with the step number
     steps: (Titled & { icon: string })[];
   };
-  showcase: { title: string; body: string; altCampaign: string; altProducts: string };
+  showcase: {
+    title: string;
+    body: string;
+    altCampaign: string;
+    altProducts: string;
+    altGuide: string;
+  };
   share: {
     title: string;
     body: string;

@@ -15,7 +15,7 @@ export function ProductShowcase({ lang }: { lang: Locale }) {
           </p>
         </div>
 
-        <div className="mx-auto mt-14 grid max-w-xl gap-8 sm:grid-cols-2 sm:items-start">
+        <div className="mx-auto mt-14 grid max-w-3xl gap-8 sm:grid-cols-3 sm:items-start">
           <ScreenshotFrame
             src="/screenshots/campaign-view.jpg"
             alt={showcase.altCampaign}
@@ -29,6 +29,13 @@ export function ProductShowcase({ lang }: { lang: Locale }) {
             width={780}
             height={1688}
             className="mx-auto w-full max-w-[220px] rotate-1 sm:mt-10"
+          />
+          <ScreenshotFrame
+            src="/screenshots/guide-view.jpg"
+            alt={showcase.altGuide}
+            width={780}
+            height={1688}
+            className="mx-auto w-full max-w-[220px] -rotate-1 sm:mt-4"
           />
         </div>
       </div>

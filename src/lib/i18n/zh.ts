@@ -70,10 +70,11 @@ export const zh: Dict = {
     ],
   },
   showcase: {
-    title: "看看实际效果",
+    title: "用户体验",
     body: "真实商家的接龙，真实买家的下单体验。",
     altCampaign: "买家看到的接龙页面，包含标题、截止时间和商品",
     altProducts: "商品列表，包含图片、价格、优惠和数量加减按钮",
+    altGuide: "接龙参与指南页面，说明如何在微信中下单",
   },
   share: {
     title: "分享链接和二维码，直达微信群",
