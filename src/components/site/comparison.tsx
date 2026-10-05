@@ -12,6 +12,11 @@ export function Comparison({ lang }: { lang: Locale }) {
             {comparison.heading}
           </h2>
           <p className="mt-4 text-lg text-slate-600">{comparison.body}</p>
+          {comparison.closing && (
+            <p className="mt-6 text-lg font-semibold text-slate-950 whitespace-pre-line">
+              {comparison.closing}
+            </p>
+          )}
         </div>
 
         <div className="mt-12 overflow-hidden rounded-xl ring-1 ring-border">

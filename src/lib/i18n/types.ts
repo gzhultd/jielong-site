@@ -65,6 +65,8 @@ export type Dict = {
   comparison: {
     heading: string;
     body: string;
+    // Optional bold closing line under the body.
+    closing?: string;
     colGeneric: string;
     colJielong: string;
     rows: { label: string; generic: string; jielong: string }[];
