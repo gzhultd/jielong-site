@@ -4,9 +4,12 @@ import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScreenshotFrame } from "@/components/site/screenshot-frame";
+import { getDict, localePath, type Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-export function Hero() {
+export function Hero({ lang }: { lang: Locale }) {
+  const { hero } = getDict(lang);
+  const pricingHref = localePath(lang, "/pricing");
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-white to-slate-100">
       <div
@@ -21,49 +24,46 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-8 sm:px-6 sm:py-12 lg:grid-cols-2 lg:items-center lg:gap-12">
         <div className="text-center lg:text-left">
           <Badge variant="secondary" className="mb-6">
-            Built for the NZ group-buy community
+            {hero.badge}
           </Badge>
 
           <h1 className="max-w-xl text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl lg:mx-0">
-            Publish a campaign. Collect orders.
-            <br className="hidden sm:block" /> Batch-produce with confidence.
+            {hero.titleLine1}
+            <br className="hidden sm:block" /> {hero.titleLine2}
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-slate-600 lg:mx-0">
-            Jielong (接龙) is a batch commerce platform for New Zealand
-            merchants — publish a limited-time ordering window, let shoppers
-            commit and pay by bank transfer or Online EFTPOS, then produce and fulfil every order
-            together.
+            {hero.body}
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
             <Link
-              href="/pricing"
+              href={pricingHref}
               className={cn(buttonVariants({ size: "lg" }), "h-11 px-6 text-base")}
             >
-              Start free
+              {hero.startFree}
             </Link>
             <Link
-              href="/pricing"
+              href={pricingHref}
               className={cn(
                 buttonVariants({ size: "lg", variant: "outline" }),
                 "h-11 px-6 text-base",
               )}
             >
-              View pricing
+              {hero.viewPricing}
               <ArrowRight data-icon="inline-end" />
             </Link>
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            Free to start &middot; No card required &middot; Bank transfer or Online EFTPOS
+            {hero.note}
           </p>
         </div>
 
         <div className="relative mx-auto w-full max-w-[240px] lg:max-w-[260px]">
           <ScreenshotFrame
             src="/screenshots/home-view.jpg"
-            alt="The Jielong homepage on a phone — live campaigns, deadlines, and past campaigns"
+            alt={hero.alt}
             width={780}
             height={1688}
             className="rotate-1 shadow-2xl"

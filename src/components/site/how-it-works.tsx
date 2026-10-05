@@ -1,6 +1,6 @@
 import { CalendarClock, ClipboardList, Truck, Users, type LucideIcon } from "lucide-react";
 
-import { steps } from "@/lib/site-content";
+import { getDict, type Locale } from "@/lib/i18n";
 
 const icons: Record<string, LucideIcon> = {
   CalendarClock,
@@ -9,21 +9,22 @@ const icons: Record<string, LucideIcon> = {
   Truck,
 };
 
-export function HowItWorks() {
+export function HowItWorks({ lang }: { lang: Locale }) {
+  const { howItWorks } = getDict(lang);
   return (
     <section id="how-it-works" className="bg-white py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-            How a 接龙 campaign works
+            {howItWorks.title}
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Four steps from opening a window to handing over the last order.
+            {howItWorks.subtitle}
           </p>
         </div>
 
         <ol className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((step, index) => {
+          {howItWorks.steps.map((step, index) => {
             const Icon = icons[step.icon];
             return (
               <li key={step.title} className="relative">
@@ -31,7 +32,7 @@ export function HowItWorks() {
                   <Icon className="size-6" />
                 </div>
                 <div className="mt-4 text-xs font-semibold text-primary">
-                  Step {index + 1}
+                  {howItWorks.stepLabel.replace("{n}", String(index + 1))}
                 </div>
                 <h3 className="mt-1 text-lg font-semibold text-slate-950">
                   {step.title}

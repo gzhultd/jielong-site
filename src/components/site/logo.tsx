@@ -1,9 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Logo({ className }: { className?: string }) {
+export function Logo({
+  href,
+  edition,
+  className,
+}: {
+  href: string;
+  edition: string;
+  className?: string;
+}) {
   return (
-    <Link href="/" className={`flex items-center gap-2 ${className ?? ""}`}>
+    <Link href={href} className={`flex items-center gap-2 ${className ?? ""}`}>
       <Image
         src="/icons/icon-192.png"
         alt=""
@@ -17,7 +25,7 @@ export function Logo({ className }: { className?: string }) {
           Jielong
         </span>
         <span className="w-fit rounded-full bg-accent px-2 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wide text-accent-foreground">
-          NZ Edition
+          {edition}
         </span>
       </span>
     </Link>

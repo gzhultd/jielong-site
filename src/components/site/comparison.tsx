@@ -1,31 +1,9 @@
 import { Check, X } from "lucide-react";
 
-import { comparison } from "@/lib/site-content";
+import { getDict, type Locale } from "@/lib/i18n";
 
-const rows = [
-  {
-    label: "Ordering model",
-    generic: "Order anytime, fulfilled as it comes in",
-    jielong: "Time-boxed window, fulfilled as one batch",
-  },
-  {
-    label: "Production planning",
-    generic: "You track quantities yourself",
-    jielong: "Automatic per-product production summary",
-  },
-  {
-    label: "Pickup locations",
-    generic: "Usually one storefront",
-    jielong: "Multiple pickup points and delivery zones, each with own time windows",
-  },
-  {
-    label: "Payments",
-    generic: "Card processing, ~2–3% fees",
-    jielong: "Bank transfer or Online EFTPOS (Pro) — no card fees",
-  },
-];
-
-export function Comparison() {
+export function Comparison({ lang }: { lang: Locale }) {
+  const { comparison } = getDict(lang);
   return (
     <section className="bg-white py-20 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -39,10 +17,10 @@ export function Comparison() {
         <div className="mt-12 overflow-hidden rounded-xl ring-1 ring-border">
           <div className="grid grid-cols-3 bg-slate-50 text-sm font-semibold text-slate-950">
             <div className="px-5 py-4"></div>
-            <div className="px-5 py-4">Generic preorder tools</div>
-            <div className="px-5 py-4 text-primary">Jielong</div>
+            <div className="px-5 py-4">{comparison.colGeneric}</div>
+            <div className="px-5 py-4 text-primary">{comparison.colJielong}</div>
           </div>
-          {rows.map((row, i) => (
+          {comparison.rows.map((row, i) => (
             <div
               key={row.label}
               className={`grid grid-cols-3 text-sm ${i % 2 ? "bg-white" : "bg-slate-50/50"}`}
