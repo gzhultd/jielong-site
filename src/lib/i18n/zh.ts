@@ -30,8 +30,8 @@ export const zh: Dict = {
   },
   hero: {
     badge: "专为新西兰社群团购打造",
-    titleLine1: "发起接龙，轻松收单。",
-    titleLine2: "到点截单，统一备货。",
+    titleLine1: "发布接龙，集中收单。",
+    titleLine2: "截单备货，统一交付。",
     body: "Jielong（接龙）让新西兰商家的社群团购更简单。发布限时接龙，买家在线下单并完成付款；截单后统一备货、统一交付，从发布到交付，一条接龙轻松搞定。",
     startFree: "免费开始",
     viewPricing: "查看价格",
