@@ -39,7 +39,7 @@ export const zh: Dict = {
     alt: "手机上的 Jielong 主页——进行中的接龙、截止时间和往期接龙",
   },
   howItWorks: {
-    title: "一场接龙是怎么运作的",
+    title: "接龙怎么玩",
     subtitle: "从发布到交付，四步完成。",
     stepLabel: "第 {n} 步",
     steps: [
