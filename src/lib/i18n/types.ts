@@ -51,6 +51,8 @@ export type Dict = {
     title: string;
     body: string;
     points: string[];
+    // Optional one-line flow shown under the bullets (e.g. "A → B → C").
+    flow?: string;
     badgeQr: string;
     badgeNoInstall: string;
     alt: string;

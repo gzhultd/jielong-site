@@ -19,6 +19,10 @@ export function ShareHighlight({ lang }: { lang: Locale }) {
             {share.body}
           </p>
 
+          {share.flow && (
+            <p className="mt-6 text-sm font-medium text-primary">{share.flow}</p>
+          )}
+
           <ul className="mt-8 space-y-4">
             {share.points.map((point) => (
               <li key={point} className="flex items-start gap-3 text-slate-700">
