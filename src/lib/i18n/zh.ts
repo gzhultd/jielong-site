@@ -349,9 +349,9 @@ export const zh: Dict = {
         ],
       },
     ],
-    copyrightBefore: "© {year} Jielong，",
+    copyrightBefore: "© {year} Jielong · ",
     company: "GZhu Limited",
-    copyrightAfter: " 旗下产品。为新西兰而做。",
+    copyrightAfter: " 旗下产品",
     pricingNote: "新西兰元定价 · Pacific/Auckland",
   },
 };
