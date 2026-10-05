@@ -30,9 +30,9 @@ export const zh: Dict = {
   },
   hero: {
     badge: "专为新西兰社群团购打造",
-    titleLine1: "发布接龙，收集订单。",
-    titleLine2: "一次备货，统一交付。",
-    body: "Jielong（接龙）是为新西兰商家打造的批量接龙平台——发布限时接龙，买家通过银行转账或 Online EFTPOS 付款下单，截止后统一备货、统一交付。",
+    titleLine1: "发起接龙，轻松收单。",
+    titleLine2: "到点截单，统一备货。",
+    body: "Jielong（接龙）让新西兰商家的社群团购更简单。发布限时接龙，顾客在线下单并完成付款；截单后统一备货、统一交付，从发布到交付，一条接龙轻松搞定。",
     startFree: "免费开始",
     viewPricing: "查看价格",
     note: "免费开始 · 无需绑定银行卡 · 银行转账或 Online EFTPOS",
